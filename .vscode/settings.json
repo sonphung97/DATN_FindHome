@@ -1,0 +1,3 @@
+{
+  "eslint.workingDirectories": ["./{http://localhost:3000/}"]
+}

@@ -1,0 +1,44 @@
+.ant-content {
+    background: #ffff;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.button-color {
+    background-color: #a99652 !important;
+    border: 0 !important;
+}
+
+.button-color:hover{
+    background-color: #b5a15a !important;
+    border: 0 !important;
+}
+
+.filter-table {
+    display: flex;
+    div {
+        margin-right: 10px;
+        min-width: 150px !important;
+    }
+
+    div:last-child {
+        margin-right: 0px !important;
+    }
+}
+
+.ant-layout-content{
+    overflow: hidden !important;
+}
+
+.ck-editor__editable {
+    min-height: 200px !important;
+    max-height: 500px !important;
+}
+
+// view list posts
+.list-view-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}

@@ -1,0 +1,22 @@
+.post-select-add-address {
+    display: flex;
+    .ant-col-8{
+            &:nth-child(1), &:nth-child(2) {
+            padding-right: 0.5rem;
+        }
+    }
+}
+
+.post-add-item-header{
+    height: 1rem;
+    color: white;
+    font-weight: 600;
+    background-color: #069ed2;
+    padding: 1rem 0.5rem;
+    line-height: 0rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-add-item-header-map {
+    margin-bottom: 0rem !important;
+}

@@ -1,0 +1,17 @@
+****** client ******
+
+REACT_APP_SERVER = http://localhost:5000
+
+****** server ******
+
+PORT = 5000
+
+DB_HOST = localhost
+DB_PORT = 27017
+DB_NAME = find_home
+
+DB_USERNAME = dbname
+DB_PASSWORD = 123456
+WEBSITE = http://localhost:3000
+
+TOKEN_SECRET = FINDHOME

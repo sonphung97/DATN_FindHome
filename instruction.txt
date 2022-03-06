@@ -1,0 +1,4 @@
+- Bỏ comment file .env trong .gitignore
+- Ứng dụng gồm các quyền role ở trong collection user. 
+Trong đó role : enum[1. guest, 2: user, 3: admin]
+Có thể thêm các role khác tương ứng và check thêm role vào component

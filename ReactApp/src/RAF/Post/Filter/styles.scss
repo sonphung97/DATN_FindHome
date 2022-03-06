@@ -1,0 +1,16 @@
+.post-filter-content {
+    margin-bottom: 1rem;
+}
+
+.post-list-filter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    row-gap: 0;
+}
+
+.post-filter-button {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
