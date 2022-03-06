@@ -19,7 +19,6 @@ export const routePath = {
 export const postTypes = ["", "Phòng trọ", "Nhà trọ"];
 
 export const directionTypes = [
-    "",
     "Đông",
     "Tây",
     "Nam",

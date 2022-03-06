@@ -150,7 +150,7 @@ const PostFilter = (props) => {
                     >
                         <Select placeholder="Chọn hướng">
                             {directionTypes.map((value, index) =>
-                                <Option key={index} value={index + 1}>{value}</Option>)}
+                                <Option key={index} value={index}>{value}</Option>)}
                         </Select>
                     </Form.Item>
 

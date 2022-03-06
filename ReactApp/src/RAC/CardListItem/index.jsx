@@ -61,7 +61,7 @@ const CardListItem = (props) => {
                         
                         <div>
                             <span>Hướng:</span> &ensp;
-                            <span>{postItem.direction ? directionTypes[postItem.direction] : "--"}</span>
+                            <span>{postItem.direction !== undefined ? directionTypes[postItem.direction] : "--"}</span>
                         </div>
 
                         <div>
