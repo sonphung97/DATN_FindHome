@@ -68,7 +68,7 @@ const EditForm = (props) => {
     const onSubmit = async (values) => {
         let imagesUploaded = await uploadImage();
         if (imagesUploaded?.preview?.length) {
-            values.preview = imagesUploaded.avatar[0];
+            values.preview = imagesUploaded?.preview[0];
         } else if (!preview?.length) {
             //Trong trường hợp ảnh bị xóa
             values.preview = undefined;
